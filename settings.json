@@ -1,0 +1,42 @@
+{
+
+    "editor.lineNumbers": "relative",
+    "emmet.excludeLanguages": [],
+    "files.associations": {
+        "*.html": "html"
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {"before" : ["leader", "v"], "commands": [":vsplit"]},
+        {"before" : ["leader", "s"], "commands": [":split"]},
+        {"before" : ["leader", "n"], "commands": [":bnext"]},
+        {"before" : ["leader", "p"], "commands": [":bprevious"]},
+        {"before" : ["leader", "d"], "commands": [":bdelete"]},
+        {"before": ["g", "d"], "commands": ["editor.action.goToDeclaration"]},
+    ],
+    "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/Users/mmuhammad/.vs_vimrc",
+    "extensions.ignoreRecommendations": true,
+    "git.enabled": false,
+    "window.zoomLevel": 2,
+    "vim.leader": "<space>",
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+          "before": [
+            "J"
+          ],
+          "commands": [
+            "editor.action.moveLinesDownAction"
+          ]
+        },
+        {
+          "before": [
+            "K"
+          ],
+          "commands": [
+            "editor.action.moveLinesUpAction"
+          ]
+        }
+    ]
+}
